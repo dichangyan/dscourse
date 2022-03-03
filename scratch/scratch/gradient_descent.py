@@ -1,4 +1,4 @@
-from scratch.linear_algebra import Vector, dot
+from code.scratch.scratch.scratch.linear_algebra import Vector, dot
 
 def sum_of_squares(v: Vector) -> float:
     """Computes the sum of squared elements in v"""
@@ -24,7 +24,7 @@ def estimate_gradient(f: Callable[[Vector], float],
             for i in range(len(v))]
 
 import random
-from scratch.linear_algebra import distance, add, scalar_multiply
+from code.scratch.scratch.scratch.linear_algebra import distance, add, scalar_multiply
 
 def gradient_step(v: Vector, gradient: Vector, step_size: float) -> Vector:
     """Moves `step_size` in the `gradient` direction from `v`"""
